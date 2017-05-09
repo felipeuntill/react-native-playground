@@ -18,11 +18,11 @@ const styles = {
       justifyContent: 'center',
       alignItems: 'center',
       display: 'flex',
-      marginTop: 20
+      paddingTop: 20,
+      height: 60
     },
     textStyle: {
-      fontSize: 20,
-      color: 'red'
+      fontSize: 20
     }
 };
 

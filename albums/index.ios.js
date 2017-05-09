@@ -1,11 +1,14 @@
 // IOS Interface
 
 import React from 'react';
-import { Text, AppRegistry } from 'react-native';
-
+import { View, Text, AppRegistry } from 'react-native';
+import Header from './src/components/header';
 
 const App = () => (
-  <Text>Some Text</Text>
+  <View>
+    <Header />
+    <Text>Some Text</Text>
+  </View>
 );
 
 
